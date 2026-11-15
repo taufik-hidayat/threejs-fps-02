@@ -4,7 +4,8 @@
 // target speed and its own movement. Defenders hold the site; attackers push it; when
 // the bomb is planted the defenders converge to defuse it.
 import * as THREE from 'three';
-import { PALETTE, WAYPOINTS } from './world.js';
+import { PALETTE } from './palette.js';
+import { WAYPOINTS } from './world.js';
 
 const BOT_HEALTH = 100;
 const BOT_SPEED_WALK = 3.2;
